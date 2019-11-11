@@ -6,6 +6,7 @@ ruby '2.6.3'
 gem 'rails', '~> 6.0.0'
 gem 'puma'
 gem 'sqlite3'
+gem 'devise'
 
 gem 'bootstrap'
 gem 'bootsnap', '>= 1.4.2', require: false
