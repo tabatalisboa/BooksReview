@@ -1,3 +1,4 @@
+# typed: true
 class BooksController < ApplicationController
   # before_action
 

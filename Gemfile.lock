@@ -189,6 +189,10 @@ GEM
     simple_form (5.0.1)
       actionpack (>= 5.0)
       activemodel (>= 5.0)
+    sorbet (0.4.5136)
+      sorbet-static (= 0.4.5136)
+    sorbet-runtime (0.4.5136)
+    sorbet-static (0.4.5136-universal-darwin-14)
     spring (2.1.0)
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
@@ -248,6 +252,8 @@ DEPENDENCIES
   sass-rails (~> 5)
   selenium-webdriver
   simple_form
+  sorbet
+  sorbet-runtime
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3
